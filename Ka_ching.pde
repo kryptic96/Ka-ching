@@ -23,23 +23,12 @@ void draw(){
   else if (three)        print("\nka");
   else                  {print("\n" +iterator);}
   
-  resetBool();
-  
 }
-
-
 
 boolean check(int num){
   boolean bool = false;
   
   if(iterator % num == 0)bool = true;  
  return bool; 
-  
-}
-
-void resetBool(){
-  
- three = false;
- five  = false;
   
 }
